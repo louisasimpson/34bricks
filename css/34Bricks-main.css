@@ -12,6 +12,34 @@ body, html {
     font-family: futura-light, Arial, sans-seriff;
 }
 
+/* Menu styles */
+.navbar {
+    border-radius: 0px;
+}
+.navbar-brand {
+    padding-top: 10px;
+}
+@media (max-width: 768px) {
+.navbar-brand {
+    padding-top: 5px;
+}
+}
+@media (min-width: 768px) {
+.navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+}
+
+.navbar-inverse {
+    background-color: #757769;
+    border-color: #757769;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFF3E7;
+    text-transform: uppercase;
+}
+
 #bgimg-1, #bgimg-2, #bgimg-3, #bgimg-4 {
     position: relative;
     opacity: .8;
@@ -37,11 +65,14 @@ body, html {
 }
 
 #caption1, #caption2, #caption3 {
-    color:#757769;
+    color:#000;
     background-color:fff;
     text-align:center;
-    padding:50px 80px;
+    padding:30px 10vw;
     text-align: justify;
+}
+#caption1 {
+    padding-top: 10px;
 }
 
 .caption {
@@ -70,61 +101,9 @@ h1 {
     -webkit-margin-after: 0.2em;
 }
 p {
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
-#header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #757769;
-    z-index: 9;
-}
-#header img {
-    height: 50px;
-}
-#header h2 {
-    display: inline-block;
-    font-family: bella, serif;
-    color: #FFF3E7;
-    vertical-align: middle;
-    -webkit-margin-before: -1em;
-    -webkit-margin-after: 0em;
-}
-#header a {
-    color: #FFF3E7;
-    text-decoration: none;
-}
-#header h2 a:hover {
-    color: #fff;
-}
-#header .title-nav-wrapper {
-    display: table;
-    width: 100%;
-    margin: 0 auto;
-    padding: 10px 30px;
-    vertical-align: middle;
-    box-sizing: border-box;
-}
-#header #desktopNav {
-    display: table-cell;
-    width: 50%;
-    text-align: right;
-    vertical-align: middle;
-}
-.main-nav ul, .secondary-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    line-height: 1em;
-    position: relative;
-    z-index: 8;
-}
-.main-nav ul li {
-    display: inline-block;
-    position: relative;
-    z-index: inherit;
-    margin-left: 30px;
-    text-transform: uppercase;
-}
+
+
+
