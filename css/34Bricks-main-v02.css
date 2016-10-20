@@ -1,0 +1,73 @@
+@font-face {
+    font-family: bella;
+    src: url(../fonts/Bello-Pro_6555.ttf);
+}
+@font-face {
+    font-family: futura-light;
+    src: url(../fonts/ufonts.com_futura-t-light.ttf);
+}
+
+body, html {
+    font-family: futura-light, Arial, sans-seriff;
+}
+
+h2 {
+    text-align: center;
+    font-family: bella, serif;
+    font-size: 5vw;
+    color: #757769;
+    -webkit-margin-before: 0.2em;
+    -webkit-margin-after: 0.2em;
+}
+p {
+    font-size: 1em;
+}
+
+#logo {
+    text-align: -webkit-center;
+}
+#logo img {
+    width: 30%;
+}
+
+.title-nav-wrapper {
+    background-color: #757769;
+    z-index: 9;
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 30px;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.title-nav-wrapper a {
+    color: #FFF3E7;
+    text-decoration: none;
+}
+.title-nav-wrapper a a:hover {
+    color: #fff;
+}
+.title-nav-wrapper {
+}
+.title-nav-wrapper #desktopNav {
+    display: table-cell;
+    width: 50%;
+    text-align: right;
+    vertical-align: middle;
+}
+.main-nav ul, .secondary-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 1em;
+    position: relative;
+    z-index: 8;
+}
+.main-nav ul li {
+    display: inline-block;
+    position: relative;
+    z-index: inherit;
+    margin-left: 30px;
+    text-transform: uppercase;
+}
